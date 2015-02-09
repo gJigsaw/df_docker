@@ -34,3 +34,5 @@ ADD rotato_region /opt/df/df_linux/data/save/region1
 
 # Run DFHack (which also starts Dwarf Fortress)
 CMD /opt/df/df_linux/dfhack
+
+# A Pointless Comment
