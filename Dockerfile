@@ -32,6 +32,9 @@ ADD dfhack.init /opt/df/df_linux/dfhack.init
 # Include a rotato world
 ADD rotato_region /opt/df/df_linux/data/save/region1
 
+# (Pointlessly) Set working directory to root
+WORKDIR /
+
 # Run DFHack (which also starts Dwarf Fortress)
 CMD /opt/df/df_linux/dfhack
 
