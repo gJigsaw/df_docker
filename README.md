@@ -11,5 +11,5 @@ First, [Install Docker](http://docs.docker.com/installation/).
 
 Then, Run the df-docker container:
 
-docker -i -t gjigsaw/df-docker
+docker run -it gjigsaw/df-docker
 
